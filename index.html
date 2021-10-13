@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+
+    <main class="flexCenter">
+
+        <div class="signUp flexCenter">
+            <h1>Sign Up</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Culpa dicta, inventore nihil provident sit vel</p>
+        </div>
+
+        <div class="err"></div>
+
+        <form class="form flexCenter">
+
+            <div>
+                <label for="firstName">First Name*</label>
+                <input type="text" placeholder="Input Your First Name" name="firstName" id="firstName" required>
+            </div>
+
+            <div>
+                <label for="lastName">Last Name*</label>
+                <input type="text" placeholder="Input Your Last Name" name="lastName" id="lastName" required>
+            </div>
+
+            <div>
+                <label for="email">Email*</label>
+                <input type="email" placeholder="Input Your Email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="number">Phone Number*</label>
+                <input type="number" placeholder="Input Your Number" name="number" id="number" required>
+            </div>
+
+            <div>
+                <label for="psw">Password*</label>
+                <input type="password" placeholder="Create Password" name="psw" id="psw" required>
+            </div>
+
+            <div>
+                <label for="pswCon">Confirm Password*</label>
+                <input type="password" placeholder="Confirm Your Password" name="pswCon" id="pswCon" required>
+            </div>
+
+
+            <div class="showPswWrapper">
+                <p class="showPsw">show password</p>
+            </div>
+
+        </form>
+        <input type="submit" value="Submit" id="submitBtn">
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
